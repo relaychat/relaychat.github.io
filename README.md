@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Relay Chat
 
-You can use the [editor on GitHub](https://github.com/relaychat/relaychat.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Ronsor Relay Chat System, or RRCS, is a new federated network of servers that all have the goal to bring a simple, modern chat network.
+RRCS was inspired by IRC, and various modern (and proprietary) chat systems, such as Discord.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+RRCS is written in 100% standard Tcl 8.5+. Tcl is not very large and worth installing for this project.
 
-### Markdown
+### Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+RRCS has all the standard features of a chat service:
 
-```markdown
-Syntax highlighted code block
+    * Chat rooms and moderators
+    * Support for bans
+    * Channel topics
+    * No registration required.
+    
+RRCS also allows the `ENCAP` command, allowing `ENCAP`sulation of "out of band" data, such as voice, video, and images.
 
-# Header 1
-## Header 2
-### Header 3
+### How do I use RRCS
 
-- Bulleted
-- List
+The simplest way to use RRCS right now is to use the IRC gateway: http://kiwiirc.com/client/irc.openstar.pw/#ronsor
+The default chat client is quite limited right now.
 
-1. Numbered
-2. List
+You can setup your own server if you'd like. Please see https://github.com/ronsor/relaychat.
 
-**Bold** and _Italic_ and `Code` text
+### What license is the default RRCS implementation
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/relaychat/relaychat.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+RRCS is under the MIT License. Copyright (C) 2014, 2015, 2016, 2017 Ronsor-OpenStar Developments and Ronsor.
