@@ -18,7 +18,8 @@ RRCS also allows the `ENCAP` command, allowing `ENCAP`sulation of "out of band" 
 
 ### How do I use RRCS
 
-The simplest way to use RRCS right now is to use the IRC gateway: http://kiwiirc.com/client/irc.openstar.pw/#ronsor
+The simplest way to use RRCS right now is to use the IRC gateway: http://kiwiirc.com/client/irc.openstar.pw/#ronsor.
+IRC clients can connect to irc.openstar.pw port 6667 or for TLS support, 6697.
 The default chat client is quite limited right now.
 
 You can setup your own server if you'd like. Please see https://github.com/ronsor/relaychat.
@@ -26,3 +27,4 @@ You can setup your own server if you'd like. Please see https://github.com/ronso
 ### What license is the default RRCS implementation
 
 RRCS is under the MIT License. Copyright (C) 2014, 2015, 2016, 2017 Ronsor-OpenStar Developments and Ronsor.
+Documentation is available at the main repo.
